@@ -1,6 +1,6 @@
 from ctypes import CDLL
 
-obj= CDLL("divisibility.so")
+obj= CDLL("divisibility/divisibility.so")
 
 
 def divisibility_under10(num1: int, num2: int):

@@ -1,6 +1,6 @@
 from ctypes import CDLL
 
-obj= CDLL("multiply.so")
+obj= CDLL("multiply/multiply.so")
 
 
 def multiply_by11(num: int) -> int:
