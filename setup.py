@@ -11,7 +11,7 @@ setuptools.setup(
     description="A Python Package for Vedic Mathematics",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/utkarsh0702/vedicpy",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -22,6 +22,7 @@ setuptools.setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
+    install_requires=["ctypes"],
     python_requires='>=3.6',
 )
 
