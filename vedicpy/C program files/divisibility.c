@@ -33,16 +33,14 @@ void divisibility_under10(int a, int b){
         }
     }
     else{
-        printf("The divisibility test will only be if 2,3,4,5,6,8 and 9.\n");
+        printf("Error: The divisibility test is only applicable with 2,3,4,5,6,8 and 9.\n");
         exit(0);
     }
 
     if(i==1){
         printf("The number is divisible.\n");
-        exit(0);
     }
     else{
         printf("The number is not divisible.\n");
-        exit(0);
     }
 }

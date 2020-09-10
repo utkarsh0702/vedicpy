@@ -9,6 +9,7 @@ int square_ending5(int a){
     }
     else{
         printf("Error: The lat digit of the nu,ber should be 5.\n");
+        exit(0);
     } 
     return c;
 }

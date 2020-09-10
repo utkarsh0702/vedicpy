@@ -1,6 +1,6 @@
 from ctypes import CDLL
 
-obj= CDLL("sq_sqrt/sq_sqrt.so")
+obj= CDLL("vedicpy/C program files/sq_sqrt.so")
 
 
 def square_ending5(num: int) -> int:

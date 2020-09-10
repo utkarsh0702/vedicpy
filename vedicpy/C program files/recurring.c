@@ -9,7 +9,7 @@ void recuring_fractionto_decimal(int divident, int diviser){
     else if(diviser%10 == 7){ diviser= 7*diviser; divident= 7*divident;}
     else if(diviser%10 == 1){ diviser= 9*diviser; divident= 9*divident;}
     else{
-        printf("Not a recurring decimal.\n");
+        printf("Error: Not a recurring decimal.\n");
         exit(0);
     }
     int op= diviser/10 +1;
