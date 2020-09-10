@@ -1,6 +1,6 @@
 from ctypes import CDLL
 
-obj= CDLL("cube_cuberoot/cube_cuberoot.so")
+obj= CDLL("vedicpy/C program files/cube_cuberoot.so")
 
 
 def cube_a_number(num: int) -> int:
