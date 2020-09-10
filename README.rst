@@ -1,4 +1,6 @@
-# vedicpy
+*******
+vedicpy
+*******
 
 .. image:: https://img.shields.io/pypi/v/other.svg
         :target: https://pypi.python.org/pypi/vedicpy
@@ -9,4 +11,4 @@
         :alt: Documentation Status
 
 
-A python repository for Vedic mathematical techniques
+A python package for Vedic mathematical techniques
