@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.rst", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/utkarsh0702/vedicpy",
     packages=setuptools.find_packages(),
+    license="BSD",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: C",
@@ -22,6 +23,7 @@ setuptools.setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
+    keyword="vedic python",
     install_requires=["ctypes"],
     python_requires='>=3.6',
 )
