@@ -1,7 +1,8 @@
 from ctypes import CDLL
 import os
 
-obj= CDLL(os.path.abspath(os.path.join( 'vedicpy', 'C program files', 'sq_sqrt.so')))
+path= os.path.abspath(os.path.join( 'vedicpy', 'C program files', 'sq_sqrt.so'))
+obj= CDLL(path)
 
 
 def square_ending5(num: int) -> int:

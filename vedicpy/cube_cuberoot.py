@@ -1,7 +1,8 @@
 from ctypes import CDLL
 import os 
 
-obj= CDLL(os.path.abspath(os.path.join('vedicpy', 'C program files', 'cube_cuberoot.so')))
+path= os.path.abspath(os.path.join('vedicpy', 'C program files', 'cube_cuberoot.so'))
+obj= CDLL(path)
 
 def cube_a_number(num: int) -> int:
     return obj.cube_a_number(num)

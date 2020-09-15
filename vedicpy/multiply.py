@@ -1,7 +1,8 @@
 from ctypes import CDLL
 import os
 
-obj= CDLL(os.path.abspath(os.path.join( 'vedicpy', 'C program files', 'multiply.so')))
+path= os.path.abspath(os.path.join( 'vedicpy', 'C program files', 'multiply.so'))
+obj= CDLL(path)
 
 
 def multiply_by11(num: int) -> int:
