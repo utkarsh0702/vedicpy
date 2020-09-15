@@ -1,5 +1,5 @@
 import unittest
-from vedicpy import compliment, cube_cuberoot, multiply, recurring, sq_sqrt, divisibility
+from vedicpy import compliment, cube_cuberoot, multiply, sq_sqrt
 
 class TestModule(unittest.TestCase):
     #-------------------------compliment-----------------------------
@@ -15,11 +15,7 @@ class TestModule(unittest.TestCase):
     
     def test_cuberoot_under_1000000(self):
         self.assertEqual(cube_cuberoot.cuberoot_under_1000000(314432), 68)
-    
-    #-----------------------------divisibility------------------------
-    def test_divisibility_under10(self):
-        self.assertEqual(divisibility.divisibility_under10(228,6), "The number is divisible.")
-    
+
     #-----------------------------multiply--------------------------------
     def test_multiply_base_near_powerof10(self):
         self.assertEqual(multiply.multiply_base_near_powerof10(96, 104), 9984)
@@ -76,9 +72,6 @@ class TestModule(unittest.TestCase):
     def test_perfect_sqrt_under_sqof100(self):
         self.assertEqual(sq_sqrt.perfect_sqrt_under_sqof100(2116), 46)
     
-    #----------------------recurring---------------------------------
-    def test_recuring_fractionto_decimal(self):
-        self.assertEqual(recurring.recuring_fractionto_decimal(11,19),0.578947)
 
 if __name__ == '__main__':
     unittest.main()

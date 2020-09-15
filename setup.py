@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/utkarsh0702/vedicpy",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(exclude=['tests*']),
     include_package_data=True,
     package_data={'': ['C program files/*.so']},
     test_suite='tests',
