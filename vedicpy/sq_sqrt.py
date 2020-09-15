@@ -1,6 +1,6 @@
-from ctypes import CDLL,RTLD_GLOBAL
+from ctypes import CDLL
 
-obj= CDLL('./C program files/sq_sqrt.so', RTLD_GLOBAL)
+obj= CDLL('/home/utkarsh/Desktop/vedicpy/vedicpy/C program files/sq_sqrt.so')
 
 
 def square_ending5(num: int) -> int:

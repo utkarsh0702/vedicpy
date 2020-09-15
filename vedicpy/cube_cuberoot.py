@@ -1,6 +1,6 @@
-from ctypes import CDLL, RTLD_GLOBAL
+from ctypes import CDLL
 
-obj= CDLL('./C program files/cube_cuberoot.so', RTLD_GLOBAL)
+obj= CDLL('/home/utkarsh/Desktop/vedicpy/vedicpy/C program files/cube_cuberoot.so')
 
 def cube_a_number(num: int) -> int:
     return obj.cube_a_number(num)

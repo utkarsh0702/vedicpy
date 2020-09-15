@@ -1,6 +1,6 @@
-from ctypes import CDLL, RTLD_GLOBAL
+from ctypes import CDLL
 
-obj= CDLL('./C program files/divisibility.so', RTLD_GLOBAL)
+obj= CDLL('/home/utkarsh/Desktop/vedicpy/vedicpy/C program files/divisibility.so')
 
 
 def divisibility_under10(num: int, divisor: int):

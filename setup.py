@@ -13,6 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/utkarsh0702/vedicpy",
     packages=setuptools.find_packages(),
+    include_package_data=True,
+    package_data={'': ['C program files/*.so']},
     license="BSD",
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -24,7 +26,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     keyword="vedic python",
-    #install_requires=["ctypes"],
     python_requires='>=3.6',
 )
 

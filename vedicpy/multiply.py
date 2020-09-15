@@ -1,6 +1,6 @@
-from ctypes import CDLL, RTLD_GLOBAL
+from ctypes import CDLL
 
-obj= CDLL('./C program files/multiply.so', RTLD_GLOBAL)
+obj= CDLL('/home/utkarsh/Desktop/vedicpy/vedicpy/C program files/multiply.so')
 
 
 def multiply_by11(num: int) -> int:

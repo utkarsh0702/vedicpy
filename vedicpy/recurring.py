@@ -1,6 +1,6 @@
-from ctypes import CDLL, RTLD_GLOBAL
+from ctypes import CDLL
 
-obj= CDLL('./C program files/recurring.so', RTLD_GLOBAL)
+obj= CDLL('/home/utkarsh/Desktop/vedicpy/vedicpy/C program files/recurring.so')
 
 
 def recuring_fractionto_decimal(numerator: int, denominator: int):
