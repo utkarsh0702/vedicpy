@@ -24,7 +24,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     keyword="vedic python",
-    install_requires=["ctypes"],
+    #install_requires=["ctypes"],
     python_requires='>=3.6',
 )
 
