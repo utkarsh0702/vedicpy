@@ -1,7 +1,6 @@
 from ctypes import CDLL, RTLD_GLOBAL
-import os
 
-obj= CDLL(os.path.join(os.getcwd(),'C program files/multiply.so'), RTLD_GLOBAL)
+obj= CDLL('./C program files/multiply.so', RTLD_GLOBAL)
 
 
 def multiply_by11(num: int) -> int:

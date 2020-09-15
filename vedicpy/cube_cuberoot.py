@@ -1,7 +1,6 @@
 from ctypes import CDLL, RTLD_GLOBAL
-import os
 
-obj= CDLL(os.path.join(os.getcwd(),'C program files/cube_cuberoot.so'), RTLD_GLOBAL)
+obj= CDLL('./C program files/cube_cuberoot.so', RTLD_GLOBAL)
 
 def cube_a_number(num: int) -> int:
     return obj.cube_a_number(num)

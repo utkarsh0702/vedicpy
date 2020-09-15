@@ -1,7 +1,6 @@
 from ctypes import CDLL,RTLD_GLOBAL
-import os
 
-obj= CDLL(os.path.join(os.getcwd(),'C program files/sq_sqrt.so'), RTLD_GLOBAL)
+obj= CDLL('./C program files/sq_sqrt.so', RTLD_GLOBAL)
 
 
 def square_ending5(num: int) -> int:
