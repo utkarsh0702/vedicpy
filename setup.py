@@ -15,6 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     package_data={'': ['C program files/*.so']},
+    test_suite='tests',
     license="BSD",
     classifiers=[
         "Programming Language :: Python :: 3",
