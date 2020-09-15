@@ -1,7 +1,7 @@
-from ctypes import CDLL
+from ctypes import CDLL, RTLD_GLOBAL
+import os
 
-obj= CDLL("vedicpy/C program files/cube_cuberoot.so")
-
+obj= CDLL(os.path.join(os.getcwd(),'C program files/cube_cuberoot.so'), RTLD_GLOBAL)
 
 def cube_a_number(num: int) -> int:
     return obj.cube_a_number(num)

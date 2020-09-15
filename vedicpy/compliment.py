@@ -1,6 +1,7 @@
-from ctypes import CDLL
+from ctypes import CDLL, RTLD_GLOBAL
+import os
 
-obj= CDLL('vedicpy/C program files/compliment.so')
+obj= CDLL(os.path.join(os.getcwd(),'C program files/compliment.so'), RTLD_GLOBAL)
     
 def compliment_to_power_of10(num: int) -> int:
     return obj.compliment_to_power_of10(num)
