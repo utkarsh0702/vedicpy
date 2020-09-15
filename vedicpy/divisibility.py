@@ -1,6 +1,7 @@
 from ctypes import CDLL
+import os
 
-obj= CDLL('/home/utkarsh/Desktop/vedicpy/vedicpy/C program files/divisibility.so')
+obj= CDLL(os.path.abspath(os.path.join(  'vedicpy', 'C program files', 'divisibility.so')))
 
 
 def divisibility_under10(num: int, divisor: int):
