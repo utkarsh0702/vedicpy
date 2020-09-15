@@ -1,7 +1,7 @@
 from ctypes import CDLL
 import os
 
-path= os.path.abspath(os.path.join( 'vedicpy', 'C program files', 'multiply.so'))
+path= os.path.abspath(os.path.join('vedicpy', 'C program files', 'multiply.so'))
 obj= CDLL(path)
 
 
