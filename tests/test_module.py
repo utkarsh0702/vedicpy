@@ -53,8 +53,8 @@ class TestModule(unittest.TestCase):
     def test_multiply_equdigit_number(self):
         self.assertEqual(multiply.multiply_equdigit_number(234,456), 106704)
     
-    def test_multiply_sumto10(self):
-        self.assertEqual(multiply.multiply_sumto10(24, 26), 624)
+    def test_multiply_lastdigit_sumto10(self):
+        self.assertEqual(multiply.multiply_lastdigit_sumto10(24, 26), 624)
     
     #----------------square and square root------------------
     def test_square_ending5(self):
