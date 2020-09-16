@@ -15,7 +15,7 @@
         :target: https://pypi.python.org/pypi/vedicpy
         :alt: Python Versions
 
-.. image:: https://img.shields.io/github/license/utkarsh0702/vedicpy.svg
+.. image:: https://img.shields.io/badge/License-BSD%203--Clause-orange.svg
         :target: https://github.com/utkarsh0702/vedicpy/blob/master/LICENSE
         :alt: License
 
