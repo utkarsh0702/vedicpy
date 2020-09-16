@@ -1,4 +1,4 @@
-.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb /3/31/NumPy_logo_2020.svg/1024px-NumPy_logo_2020.svg.png
+.. image:: https://github.com/utkarsh0702/vedicpy/blob/master/logo.png
    :height: 300px
    :width: 500 px
 
@@ -16,7 +16,7 @@
         :alt: Python Versions
 
 .. image:: https://img.shields.io/github/license/utkarsh0702/vedicpy.svg
-        :target: https://github.com/utkarsh0702/vedicpy/blob/master/LICENSE.txt
+        :target: https://github.com/utkarsh0702/vedicpy/blob/master/LICENSE
         :alt: License
 
 A Python Package for Vedic Mathematics
