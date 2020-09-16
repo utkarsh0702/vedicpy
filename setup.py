@@ -8,7 +8,7 @@ setuptools.setup(
     description="A Python Package for Vedic Mathematics",
     long_description_content_type="text/markdown",
     url="https://github.com/utkarsh0702/vedicpy",
-    packages=setuptools.find_packages(exclude=['tests*']),
+    packages=setuptools.find_packages(exclude=['docs','tests*']),
     test_suite='tests',
     license="BSD",
     classifiers=[
