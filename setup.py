@@ -1,15 +1,11 @@
 import setuptools
 
-with open("README.rst", "r") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name="vedicpy", 
-    version="0.0.5",
+    version="0.0.7",
     author="Utkarsh Mishra",
     author_email="utkarsh.um07@gmail.com",
     description="A Python Package for Vedic Mathematics",
-    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/utkarsh0702/vedicpy",
     packages=setuptools.find_packages(exclude=['tests*']),
