@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name="vedicpy", 
-    version="0.0.1",
+    version="0.0.5",
     author="Utkarsh Mishra",
     author_email="utkarsh.um07@gmail.com",
     description="A Python Package for Vedic Mathematics",
