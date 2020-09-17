@@ -1,5 +1,5 @@
 import unittest
-from vedicpy import compliment, cube_cuberoot, multiply, sq_sqrt
+from vedicpy import compliment, cube, multiply, square, squareroot, cuberoot
 
 class TestModule(unittest.TestCase):
     #-------------------------compliment-----------------------------
@@ -8,13 +8,13 @@ class TestModule(unittest.TestCase):
     
     #--------------------------cube and cube root----------------------
     def test_cube_2digit_number(self):
-        self.assertEqual(cube_cuberoot.cube_2digit_number(45), 91125)
+        self.assertEqual(cube.cube_2digit_number(45), 91125)
     
     def test_cube_a_number(self):
-        self.assertEqual(cube_cuberoot.cube_a_number(123), 1860867)
+        self.assertEqual(cube.cube_a_number(123), 1860867)
     
     def test_cuberoot_under_1000000(self):
-        self.assertEqual(cube_cuberoot.cuberoot_under_1000000(314432), 68)
+        self.assertEqual(cuberoot.cuberoot_under_1000000(314432), 68)
 
     #-----------------------------multiply--------------------------------
     def test_multiply_base_near_powerof10(self):
@@ -58,19 +58,19 @@ class TestModule(unittest.TestCase):
     
     #----------------square and square root------------------
     def test_square_ending5(self):
-        self.assertEqual(sq_sqrt.square_ending5(75), 5625)
+        self.assertEqual(square.square_ending5(75), 5625)
     
     def test_square_near_powerof10(self):
-        self.assertEqual(sq_sqrt.square_near_powerof10(98), 9604)
+        self.assertEqual(square.square_near_powerof10(98), 9604)
     
     def test_square_under100(self):
-        self.assertEqual(sq_sqrt.square_under100(78), 6084)
+        self.assertEqual(square.square_under100(78), 6084)
     
     def test_square_from100_to1000(self):
-        self.assertEqual(sq_sqrt.square_from100_to1000(679), 461041)
+        self.assertEqual(square.square_from100_to1000(679), 461041)
     
     def test_perfect_sqrt_under_sqof100(self):
-        self.assertEqual(sq_sqrt.perfect_sqrt_under_sqof100(2116), 46)
+        self.assertEqual(squareroot.perfect_sqrt_under_sqof100(2116), 46)
     
 
 if __name__ == '__main__':
