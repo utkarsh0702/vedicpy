@@ -42,29 +42,3 @@ def square_from100_to1000(a: int) -> int:
         print("Error: Number should be between 100 and 1000.");  exit(0)
     
     return result
-
-def perfect_sqrt_under_sqof100(a: int) -> int:
-    a= int(a)
-    c=0; b= a%10
-    for i in range(100):
-        if((i*10)**2 <= a ):
-            if(a <= ((i+1)*10)**2):
-                c= i*10; break
-    
-    d1= a- ((i*10)**2); d2= (((i+1)*10)**2)- a
-    if(b==0): b=0
-
-    elif(b==1): b= 1 if (d2>d1) else 9
-
-    elif(b==4): b= 2 if (d2>d1) else 8
-
-    elif(b==6): b= 4 if (d2>d1) else 6
-    
-    elif(b==9): b= 3 if (d2>d1) else 7
-    
-    elif(b==5): b= 5
-    
-    else:
-        print("Error: Not a perfect square."); exit(0)
-    
-    return (c+b)

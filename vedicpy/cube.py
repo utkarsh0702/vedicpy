@@ -28,18 +28,3 @@ def cube_2digit_number(a: int) -> int:
         exit(0)
 
     return c
-
-def cuberoot_under_1000000(a: int) -> int:
-    a= int(a)
-    c, a = a%10, a//10
-    if(c==2): c=8
-    elif(c==3): c=7
-    elif(c==7): c=3
-    elif(c==8): c=2
-    a//=100
-    for i in range(1,11):
-        if(a<(i**3)):
-            c+= (i-1)*10
-            break
-    
-    return c
