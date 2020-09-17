@@ -1,20 +1,15 @@
+===================================
 vedicpy documentation
 ===================================
 
-Guide
-^^^^^
+Getting Started
+^^^^^^^^^^^^^^^
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
-   license
-   help
+   installation
+   tutorial
+   troubleshooting
+   license_help
 
-
-
-Indices and tables
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

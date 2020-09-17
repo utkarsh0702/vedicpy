@@ -29,7 +29,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Contact
-=======
+Help and Contact
+================
 
-Questions?Please contact utkarsh.um07@gmail.com
+Questions or Trouble related to package? Please contact `utkarsh.um07@gmail.com <utkarsh.um07@gmail.com>`_.
