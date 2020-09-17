@@ -23,7 +23,7 @@ pip install vedicpy
 **2. Usage**
 ``` python
 import vedicpy as vedic
-a= vedic.cube_cuberoot.cube_2digit_number(43)
+a= vedic.cube.cube_2digit_number(43)
 print(a)
 ```
 
@@ -32,8 +32,12 @@ print(a)
 
 - Vedic Multiplication
 - Vedic Division
-- Square and Square Root
-- Cube and Cube Root
+- Square
+- Square Root*
+- Cube
+- Cube Root*
 - Divisibility
 - Recurring fractions
 - Compliment
+
+*Vedic Mathematics doesnot provide a way to caluclate square root and cube root accurately. So, if it says that the number is a perfect square or a perfect cube there is still some chance that it is not.
