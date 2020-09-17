@@ -8,7 +8,7 @@ class TestModule(unittest.TestCase):
     
     #--------------------------cube and cube root----------------------
     def test_cube_2digit_number(self):
-        self.assertEqual(cube.cube_2digit_number(45), 91125)
+        self.assertEqual(cube.cube_a_number_near_powerof10(103), 1092727)
     
     def test_cube_a_number(self):
         self.assertEqual(cube.cube_a_number(123), 1860867)

@@ -1,11 +1,11 @@
 from math import floor, log10
 
-def cube_a_number(a: int) -> int:
+def cube_a_number_near_powerof10(a: int) -> int:
     n = floor(log10(abs(a))) + 1 
     d1, d2= a-(10**n), a-(10**(n-1))
     d= d2 if abs(d1)>abs(d2) else d1
     b= 10**(n-1) if abs(d1)>abs(d2) else 10**n
-    ne= d+ 2*d
+    ne= d+ 2*d; c=0
     if(d<0):
         for i in range(1,11):
             if(abs(d*d*d)<(i*b)):
@@ -17,7 +17,7 @@ def cube_a_number(a: int) -> int:
     return c
 
 def cube_2digit_number(a: int) -> int:
-    a= int(a)
+    a= int(a); c=0
     n= floor(log10(abs(a))) + 1
     if(n==2 or n==1):
         b, a = a%10, a//10
