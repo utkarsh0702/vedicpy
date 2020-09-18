@@ -5,7 +5,7 @@ with open("discription.md", "r") as fh:
 
 setuptools.setup(
     name="vedicpy", 
-    version="0.0.7",
+    version="0.1.0",
     author="Utkarsh Mishra",
     author_email="utkarsh.um07@gmail.com",
     description="A Python Package for Vedic Mathematics",

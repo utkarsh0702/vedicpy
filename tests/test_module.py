@@ -11,7 +11,7 @@ class TestModule(unittest.TestCase):
         self.assertEqual(cube.cube_a_number_near_powerof10(103), 1092727)
     
     def test_cube_a_number(self):
-        self.assertEqual(cube.cube_a_number(123), 1860867)
+        self.assertEqual(cube.cube_2digit_number(12), 1728)
     
     def test_cuberoot_under_1000000(self):
         self.assertEqual(cuberoot.cuberoot_under_1000000(314432), 68)
