@@ -1,7 +1,7 @@
 Troubleshooting
 ===============
 
-If you have questions about how to use vedicpy, please email me at `<utkarsh.um07@gmail.com>`_.
+If you have questions about how to use vedicpy, please email me at `utkarsh.um07@gmail.com <utkarsh.um07@gmail.com>`_.
 
 For bug reports and other, more technical issues, consult the `github issues
 <https://github.com/utkarsh0702/vedicpy/issues>`_.

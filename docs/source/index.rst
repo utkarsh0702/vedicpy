@@ -53,4 +53,6 @@ Since Vedic maths sutras work on individual digits in a number as opposed to the
    :maxdepth: 1
    
    license_help
+   CONTRIBUTING
+   Credits
 

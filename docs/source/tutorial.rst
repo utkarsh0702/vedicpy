@@ -11,31 +11,31 @@ The *vedicpy* package is structured as collection of submodules:
 
   - vedicpy
 
-    - vedicpy.compliment
+    - :ref:`vedicpy.compliment <compliment>`
         Functions for calculating the compliment of a number.
 
-    - vedicpy.cube
+    - :ref:`vedicpy.cube <cube>`
         Functions for calculating cube of a number.
 
-    - vedicpy.cuberoot
+    - :ref:`vedicpy.cuberoot <cuberoot>`
         Functions for checking and calculating cube root of a number.
 
-    - vedicpy.divisibility
+    - :ref:`vedicpy.divisibility <divisibility>`
         Function for finding whether a number is divisible by the given number or not.
 
-    - vedicpy.division
+    - :ref:`vedicpy.division <division>`
         Function for calculating quotient and reminder.
 
-    - vedicpy.multiply
+    - :ref:`vedicpy.multiply <multiply>`
         Functions for calculating the multiplication of two number using vedic mathematical sutras.
 
-    - vedicpy.recurring
+    - :ref:`vedicpy.recurring <recurring>`
         Function for converting fractional number to its corresponding recurring decimal.
 
-    - vedicpy.square
+    - :ref:`vedicpy.square <square>`
         Functions for calculating square of a number.
 
-    - vedicpy.squareroot
+    - :ref:`vedicpy.squareroot <squareroot>`
         Functions for checking and calculating square root of a number.
 
 
