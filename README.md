@@ -1,6 +1,6 @@
 ![logo](https://github.com/utkarsh0702/vedicpy/blob/master/logo.png)
 
-[![pypi](https://img.shields.io/pypi/v/vedicpy.svg)](https://pypi.python.org/pypi/vedicpy) [![Documentation Status](https://readthedocs.org/projects/vedic/badge/?version=latest)](https://vedic.readthedocs.io/en/latest/?badge=latest) [![Python Versions](https://img.shields.io/pypi/pyversions/vedicpy.svg)](https://pypi.python.org/pypi/vedicpy) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://github.com/utkarsh0702/vedicpy/blob/master/LICENSE)
+[![pypi](https://img.shields.io/pypi/v/vedicpy.svg)](https://pypi.python.org/pypi/vedicpy) [![Documentation Status](https://readthedocs.org/projects/vedicpy/badge/?version=latest)](https://vedicpy.readthedocs.io/en/latest/?badge=latest) [![Python Versions](https://img.shields.io/pypi/pyversions/vedicpy.svg)](https://pypi.python.org/pypi/vedicpy) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://github.com/utkarsh0702/vedicpy/blob/master/LICENSE)
 
 **A Python Package for Vedic Mathematics**
 
