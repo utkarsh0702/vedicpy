@@ -10,7 +10,7 @@ This package is a python implementation of Vedic mathematical sutras. It uses th
 
 Since Vedic maths sutras work on individual digits in a number as opposed to the whole number, the implementation works slower on small digit numbers but works faster on larger digit numbers and some other operations like finding the square root or the cube root of a number.
 
--   **Documentation:** <https://vedic.readthedocs.io/en/latest/?badge=latest>
+-   **Documentation:** <https://vedicpy.readthedocs.io/en/latest/?badge=latest>
 -   **Package:** <https://pypi.python.org/pypi/vedicpy>
 
 **How to use it**
