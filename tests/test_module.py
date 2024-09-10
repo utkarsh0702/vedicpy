@@ -4,17 +4,21 @@ from vedicpy import compliment, cube, multiply, square, squareroot, cuberoot
 class TestModule(unittest.TestCase):
     #-------------------------compliment-----------------------------
     def test_compliment_to_power_of10(self):
-        self.assertEqual(compliment.compliment_to_power_of10(123), 877)
+        self.assertEqual(compliment.compliment_num(123), 877)
     
     #--------------------------cube and cube root----------------------
-    def test_cube_2digit_number(self):
-        self.assertEqual(cube.cube_a_number_near_powerof10(103), 1092727)
-    
     def test_cube_a_number(self):
+        self.assertEqual(cube.cube_using_near_powerof10(103), 1092727)
+    
+    def test_cube_2digit_number(self):
         self.assertEqual(cube.cube_2digit_number(12), 1728)
     
-    def test_cuberoot_under_1000000(self):
-        self.assertEqual(cuberoot.cuberoot_under_1000000(314432), 68)
+    def test_cuberoot_under_a_million(self):
+        self.assertEqual(cuberoot.cuberoot_under_a_million(314432), 68)
+    
+    
+    def test_cuberoot_under_thousand(self):
+        self.assertEqual(cuberoot.cuberoot_under_thousand(275), 6.5463)
 
     #-----------------------------multiply--------------------------------
     def test_multiply_base_near_powerof10(self):
