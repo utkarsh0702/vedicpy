@@ -12,4 +12,9 @@ History
 
 * First Stable release at PyPI.
 
+0.2.0 (2024-09--09)
+-------------------
+
+* Bug Fixing and functional changes.
+
 
