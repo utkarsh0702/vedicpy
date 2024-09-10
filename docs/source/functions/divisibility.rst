@@ -20,9 +20,9 @@ Divisibility
     # divisibility_under10() function takes two arguments,
     # first one is dividend and the other one is divisor
     vedic.divisibility.divisibility_under10(108, 9)
+    
+    >>> True
 
->>> The number is divisible.
+*The function returns a boolean value.*
 
-*The function doesn't return any value.*
-
-**The divisibility test is only applicable for divisor less than 10 excluding 1 and 7.**
+**The divisibility test is only applicable for divisor less than 10.**

@@ -4,7 +4,7 @@
 Squareroot
 ============
 
-1) squareroot_check
+1) isASquare
 ---------------------------------
 
 .. image:: screenshot/squareroot.png
@@ -18,7 +18,7 @@ If the number passes all the parameter then it **can** be a perfect square.
 
     import vedicpy as vedic
 
-    a= vedic.squareroot.squareroot_check(144)
+    a= vedic.squareroot.isASquare(144)
     print(a)
     print(type(a))
 

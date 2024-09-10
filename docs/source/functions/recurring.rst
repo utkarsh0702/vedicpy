@@ -4,7 +4,7 @@
 Recurring
 =================
 
-1) recuring_fractionto_decimal
+1) recuring_fraction_to_decimal
 ---------------------------------
 
 .. image:: screenshot/recurring_1.png
@@ -20,7 +20,7 @@ Recurring
 
     import vedicpy as vedic
     
-    result = vedic.recurring.recuring_fractionto_decimal(11, 19)
+    result = vedic.recurring.recuring_fraction_to_decimal(11, 19)
     print(result)
 
 >>> 0.578947

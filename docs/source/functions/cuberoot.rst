@@ -1,10 +1,10 @@
 .. _cuberoot:
 
 ============
-Cuberoot
+CubeRoot
 ============
 
-1) cuberoot_check
+1) isACube
 ---------------------------------
 
 Let’s define something called a `Digital root <https://en.wikipedia.org/wiki/Digital_root>`_. 
@@ -29,16 +29,17 @@ Anyways, if for a number xx you get a digital root that is not 1,8,9 you can con
 
     import vedicpy as vedic
 
-    a= vedic.cuberoot.cuberoot_check(123)
+    a= vedic.cuberoot.isACube(123)
     print(a)
     print(type(a))
-
->>> False
->>> <class 'bool'>
+    
+    # Output
+    >>> False
+    >>> <class 'bool'>
 
 This function returns a ``boolean`` value.
 
-2) cuberoot_under_1000000
+2) cuberoot_under_a_million
 ---------------------------------
 
 .. image:: screenshot/cuberoot.png
@@ -51,10 +52,25 @@ This function returns a ``boolean`` value.
 
     import vedicpy as vedic
 
-    a= vedic.cuberoot.cuberoot_under_1000000(175616)
+    a= vedic.cuberoot.cuberoot_under_a_million(175616)
     print(a)
-
->>> 56
+    
+    # Output
+    >>> 56
 
 `Vedic Mathematics doesn't provide a way to cube root accurately. So, if it says that the number is a perfect cube there is still some chance that it is not.`
 
+3) cuberoot_under_thousand
+---------------------------------
+
+**Implementation:**
+
+.. code-block:: python
+
+    import vedicpy as vedic
+
+    a= vedic.cuberoot.cuberoot_under_thousand(275)
+    print(a)
+    
+    # Output
+    >>> 6.5463

@@ -4,7 +4,7 @@
 Cube
 ============
 
-1) cube_a_number_near_powerof10
+1) cube_using_near_powerof10
 ---------------------------------
 
 .. image:: screenshot/cube1.png
@@ -17,10 +17,11 @@ Cube
 
     import vedicpy as vedic
 
-    a= vedic.cube.cube_a_number_near_powerof10(103)
+    a= vedic.cube.cube_using_near_powerof10(103)
     print(a)
-
->>> 1092727
+    
+    # Output
+    >>> 1092727
 
 2) cube_2digit_number
 ---------------------------------
@@ -41,6 +42,7 @@ Cube
 
     a= vedic.cube.cube_2digit_number(37)
     print(a)
-
->>> 50653
+    
+    # Output
+    >>> 50653
 

@@ -4,7 +4,7 @@
 Compliment
 ============
 
-1) compliment_to_power_of10
+1) compliment_num
 ---------------------------------
 
 The Complement of a number is the difference between that number and the next higher power of 10. 3 is the complement of 7 (as next higher power of 7 is 10). 34 is the complement of 66 (as next higher power of 66 is 100).
@@ -23,9 +23,10 @@ which means, All from 9 and last from 10.
 
     import vedicpy as vedic
 
-    a= vedic.compliment.compliment_to_power_of10(123)
+    a= vedic.compliment.compliment_num(123)
     print(a)
-
->>> 877
+    
+    # Output
+    >>> 877
 
 
