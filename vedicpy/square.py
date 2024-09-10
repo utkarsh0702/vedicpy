@@ -1,7 +1,6 @@
 from math import floor, log10
 
 def square_ending5(a: int) -> int:
-    a= int(a)
     if(a%10 == 5):
         c= (a//10)*((a//10)+1)*100 +25
     else:
@@ -11,7 +10,6 @@ def square_ending5(a: int) -> int:
     return c
 
 def square_near_powerof10(a: int) -> int:
-    a= int(a)
     n= floor(log10(abs(a))) + 1
     d1= a-(10**n); d2= a-(10**(n-1))
     c= d2 if abs(d1)>abs(d2) else d1
@@ -20,7 +18,6 @@ def square_near_powerof10(a: int) -> int:
     return c
 
 def square_under100(a: int) -> int:
-    a= int(a)
     n= floor(log10(abs(a))) + 1
     if(n==1 or n==2):
         b= a%10;  a//=10
@@ -32,7 +29,6 @@ def square_under100(a: int) -> int:
     return c
 
 def square_from100_to1000(a: int) -> int:
-    a= int(a)
     n= floor(log10(abs(a))) + 1
     if(n==3):
         c= a%10;  a//=10; b= a%10; a//=10

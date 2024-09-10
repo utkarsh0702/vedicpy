@@ -1,4 +1,4 @@
-def compliment_to_power_of10(a: int) -> int:
+def compliment_num(a: int) -> int:
     i, b = 1, a%10
     c, a = 10-b, a//10
     while a!=0:

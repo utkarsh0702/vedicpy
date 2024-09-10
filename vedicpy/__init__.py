@@ -2,7 +2,7 @@
 
 __author__ = 'Utkarsh Mishra'
 __email__ = 'utkarsh.um07@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 from vedicpy import compliment
 from vedicpy import cube

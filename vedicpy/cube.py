@@ -1,6 +1,9 @@
 from math import floor, log10
 
-def cube_a_number_near_powerof10(a: int) -> int:
+def cube_using_near_powerof10(a: int) -> int:
+    if a<=0:
+        print("Error: Input should be grater than 0.")
+        exit(0)
     n = floor(log10(abs(a))) + 1 
     d1, d2= a-(10**n), a-(10**(n-1))
     d= d2 if abs(d1)>abs(d2) else d1
@@ -16,8 +19,10 @@ def cube_a_number_near_powerof10(a: int) -> int:
     
     return c
 
+
+
 def cube_2digit_number(a: int) -> int:
-    a= int(a); c=0
+    c=0
     n= floor(log10(abs(a))) + 1
     if(n==2 or n==1):
         b, a = a%10, a//10

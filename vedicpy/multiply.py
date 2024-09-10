@@ -1,7 +1,6 @@
 from math import floor, log10
 
 def multiply_by_9group(a: int) -> int:
-    a= int(a)
     i=1; m=a; b= a%10; c=10-b
     a//=10 
     while(a!=0):
@@ -12,7 +11,6 @@ def multiply_by_9group(a: int) -> int:
     return (c+m)
 
 def multiply_by11(a: int) -> int:
-    a= int(a)
     c=a%10; b=b_prev=a%10; n = floor(log10(abs(a))) + 1
     a//=10
     for i in range(1, n+1):
@@ -26,7 +24,6 @@ def multiply_by11(a: int) -> int:
     return c
 
 def multiply_by12(a: int) -> int:
-    a= int(a)
     c= 2*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -38,7 +35,6 @@ def multiply_by12(a: int) -> int:
     return c
 
 def multiply_by13(a: int) -> int:
-    a= int(a)
     c= 3*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -50,7 +46,6 @@ def multiply_by13(a: int) -> int:
     return c
 
 def multiply_by14(a: int) -> int:
-    a= int(a)
     c= 4*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -62,7 +57,6 @@ def multiply_by14(a: int) -> int:
     return c
 
 def multiply_by15(a: int) -> int:
-    a= int(a)
     c= 5*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -74,7 +68,6 @@ def multiply_by15(a: int) -> int:
     return c
 
 def multiply_by16(a: int) -> int:
-    a= int(a)
     c= 6*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -86,7 +79,6 @@ def multiply_by16(a: int) -> int:
     return c
 
 def multiply_by17(a: int) -> int:
-    a= int(a)
     c= 7*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -98,7 +90,6 @@ def multiply_by17(a: int) -> int:
     return c
 
 def multiply_by18(a: int) -> int:
-    a= int(a)
     c= 8*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):
@@ -110,7 +101,6 @@ def multiply_by18(a: int) -> int:
     return c
 
 def multiply_by19(a: int) -> int:
-    a= int(a)
     c= 9*(a%10); i=1; b_prev= a%10
     a//=10
     while(a!=0):

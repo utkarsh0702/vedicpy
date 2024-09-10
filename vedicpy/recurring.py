@@ -1,4 +1,4 @@
-def recuring_fractionto_decimal(divident: int, diviser: int) -> float:
+def recuring_fraction_to_decimal(divident: int, diviser: int) -> float:
     c, q, r = 0.0, 0, 0
     if(diviser%10 == 9):
         diviser= diviser

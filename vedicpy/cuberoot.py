@@ -1,7 +1,6 @@
 from math import floor, log10
 
-def cuberoot_check(a: int) -> bool:
-    a= int(a)
+def isACube(a: int) -> bool:
     n= floor(log10(abs(a))) + 1 
     while(n!=1):
         sum=0
@@ -15,9 +14,8 @@ def cuberoot_check(a: int) -> bool:
     else:
         return False
 
-def cuberoot_under_1000000(a: int) -> int:
-    a= int(a)
-    if(cuberoot_check(a) == True):
+def cuberoot_under_a_million(a: int) -> int:
+    if isACube(a):
         c, a = a%10, a//10
         if(c==2): c=8
         elif(c==3): c=7
@@ -28,8 +26,17 @@ def cuberoot_under_1000000(a: int) -> int:
             if(a<(i**3)):
                 c+= (i-1)*10
                 break
-        
         return c
-
     else:
         print('The number is not a perfect cube.'); exit(0)
+
+
+
+def cuberoot_under_thousand(num: int) -> float:
+    cubeRootList = [1,8,27,64,125,216,343,512,729,1000]
+    nearest_num = min(cubeRootList, key=lambda x:abs(x-num))
+    diff = num - nearest_num
+    output = cubeRootList.index(nearest_num)+1
+    if diff != 0:
+        output = round(float(output) + diff/(3*output*output), 4)
+    return output
